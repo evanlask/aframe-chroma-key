@@ -1,5 +1,14 @@
 @import 'reset';
 
+// Allows video to auto play in ios10
+#video-element {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
 html, body {
 
 }
