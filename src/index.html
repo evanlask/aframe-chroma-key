@@ -24,6 +24,7 @@
       </a-camera>
       <a-sky src="#sky"></a-sky>
       <a-plane material="src: #video-canvas; transparent: true; side: double;" width="16" height="9" position="0 0 -15" rotation="0 0 0"></a-plane>
+      <a-plane material="src: #animation-canvas; transparent: true; side: double; shader: flat;" width="8" height="6" position="-15 2 0" rotation="0 90 0"></a-plane>
     </a-scene>
 
     <!-- Video Texture-->
@@ -31,6 +32,9 @@
       <source src="media/meow-machine.mp4" type="video/mp4">
     </video>
     <canvas id="video-canvas" width="596" height="336"></canvas>
+
+    <!-- Canvas Animation -->
+    <canvas id="animation-canvas"></canvas>
 
     <script src="scripts/libs.built.js"></script>
     <script src="scripts/test.built.js"></script>

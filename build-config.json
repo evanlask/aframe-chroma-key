@@ -50,14 +50,14 @@
     "dest": "libs.built.js",
     "lint": false,
     "files": [
-      "../../node_modules/aframe/dist/aframe-v0.3.2.js",
-      "test.js"
+      "../../node_modules/aframe/dist/aframe-v0.3.2.js"
     ]
   },{
     "dest": "test.built.js",
     "lint": true,
     "files": [
-      "test.js"
+      "test-video.js",
+      "test-canvas.js"
     ]
   }]
 }
