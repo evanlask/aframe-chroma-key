@@ -47,17 +47,17 @@
     "unused": true
   },
   "SCRIPT_BUNDLES": [{
-    "dest": "root.built.js",
-    "lint": true,
+    "dest": "libs.built.js",
+    "lint": false,
     "files": [
-      "root.js"
+      "../../node_modules/aframe/dist/aframe-v0.3.2.js",
+      "test.js"
     ]
   },{
-    "dest": "folder/folder.built.js",
+    "dest": "test.built.js",
     "lint": true,
     "files": [
-      "folder/folder.one.js",
-      "folder/folder.two.js"
+      "test.js"
     ]
   }]
 }
